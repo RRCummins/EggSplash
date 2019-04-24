@@ -14,7 +14,7 @@ class EggView : UIView {
     override func drawRect(rect: CGRect) {
         //Egg Drawing
         //// Oval 1 Drawing
-    
+        let oval1Path = UIBezierPath()
       oval1Path.move(to: CGPoint(301.5, 366.35))
       oval1Path.addCurve(to: CGPoint(161.67, 536.5), controlPoint1: CGPoint(301.59, 460.27), controlPoint2: CGPoint(238.99, 536.45))
       oval1Path.addCurve(to: CGPoint(21.5, 366.54), controlPoint1: CGPoint(84.35, 536.55), controlPoint2: CGPoint(21.59, 460.46))
