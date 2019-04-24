@@ -10,6 +10,10 @@ class EggView : UIView {
         super.init(coder: aDecoder)
         backgroundColor = UIColor.clearColor()
     }
+    
+    //https://stackoverflow.com/questions/34777992/how-to-create-unique-shapes-or-uiviews-in-swift
+    //TODO: - Needs to be added as a UIView in storyboard
+    //TODO: - Needs the drawing code from CanvasView
 
     override func drawRect(rect: CGRect) {
         //Egg Drawing
