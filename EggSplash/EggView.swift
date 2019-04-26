@@ -56,5 +56,7 @@ class EggView : UIView {
         // fill the path
         UIColor.redColor().set()
         path.fill()
+        
     }
+    
 }
